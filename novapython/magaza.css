@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(206, 206, 238);
+}
+.store-header{
+    background-color: rgb(33, 23, 58);
+    color: rgb(144, 172, 189);
+    text-align: center;
+    padding: 30px;
+}
+.product-categories{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 0;
+}
+.category-elektronik{
+    background-color: burlywood;
+}
+.category-fashion{
+    background-color: burlywood;
+}
+.category-home{
+    background-color: burlywood;
+}
+    

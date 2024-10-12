@@ -1,0 +1,113 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9eff1;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: darkgray;
+    color: rgb(8, 8, 8);
+    padding: 15px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 15px;
+}
+
+header nav ul li a {
+    color: rgb(175, 16, 77);
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.ilan {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+}
+
+.ilan:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.ilan img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-bottom: 4px solid #3498db;
+}
+
+.ilan-detay {
+    padding: 10px;
+    text-align: left;
+}
+
+.ilan-detay h3 {
+    margin: 0 0 10px;
+    color: #2c3e50;
+    font-size: 1.8rem;
+}
+
+.ilan-detay p {
+    margin: 5px 0;
+    color: #7f8c8d;
+}
+
+.ilan-detay p:last-child {
+    font-weight: bold;
+    color: #e74c3c;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .ilan {
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .ilan-detay h3 {
+        font-size: 1.5rem;
+    }
+
+    .ilan img {
+        height: 180px;
+    }
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bu bir Başlıktır</title>
+</head>
+
+<body>
+    <h1>Hoşgeldiniz!</h1>
+    <h2>Hoşgeldiniz!</h2>
+    <h3>Hoşgeldiniz!</h3>
+    <h4>Hoşgeldiniz!</h4>
+    <p>Bu,basit bir HTML sayfası örneğidir</p>
+    <a href="https://www.google.com" target="_blank">buraya tıklayın</a>.</p>
+    <img src="DodgeChallenger.jpg">
+    <h2>Sıralı Liste Örneği</h2>
+    <ol>
+        <li>Birinci Öğe</li>
+        <li>İkinci Öğe</li>
+        <li>Üçüncü Öğe</li>
+    </ol>
+
+    <h2>Sırasız Liste Örneği</h2>
+    <ul>
+        <li>Birinci Öğe</li>
+        <li>İkinci Öğe</li>
+        <li>Üçüncü Öğe</li>
+    </ul>
+
+    <table border="5">
+        <tr>
+            <th>İsim</th>
+            <th>Yaş</th>
+            <th>Şehir</th>
+        </tr>
+        <tr>
+            <td>Yiğit</td>
+            <td>16</td>
+            <td>İzmir</td>
+        </tr>
+    </table>
+    <h2>İletişim Formu</h2>
+    <form action="submit.php" method="post">
+        <label for="name">İsim:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="password">Şifre:</label><br>
+        <input type="password" id="" name="" required><br><br>
+
+        <label for="city">Şehir:</label>
+        <select id="city" name="city" required>
+            <option value="">Seçiniz...</option>
+            <option value="istanbul">İstanbul</option>
+            <option value="izmir">İzmir</option>
+        </select><br><br>
+
+        <label for="cinsiyet">Cinsiyet:</label>
+        <select id="cinsiyet" name="cinsiyet" required>
+            <option value="">Seçiniz...</option>
+            <option value="erkek">Erkek</option>
+            <option value="kadin">Kadın</option>
+        </select><br><br>
+
+        <label for="mesaj">Mesaj:</label><br>
+        <textarea id="mesaj" name="mesaj" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Gönder">
+    </form>
+
+    <h1>Çapa Bağlantıları</h1>
+    <p>Bu, Bölüm 1 içeriğidir. Burada dahili çapa bağlantısının nasıl çalıştığını görebilirsiniz.</p>
+    <h2 id="footer">Sayfanın alt kısmı</h2>
+    <p>Geri dönmek için <a href="#top">tıklayın</a></p>
+</body>
+
+</html>

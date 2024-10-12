@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benim İlk HTML Sayfam</title>
+</head>
+
+<body>
+    <table border="50" align="center">
+        <tr>
+            <td bgcolor="yellow">MERHABALAR BU BENİM İLK HTML SAYFAM</td>
+        </tr>
+    </table>
+</body>
+
+<body>
+    <form action="submit.php" method="POST">
+        <!--Form elemanları buraya gelir-->
+        <label for="name">Adınız:</label>
+        <input type="text" id="name" name="name" placeholder="Adınızı girin">
+        <label for="email">E-Posta:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="password">Şifre:</label>
+        <input type="password" id="password" name="password" required>
+        <label for="gender">Cinsiyet:</label>
+        <input type="radio" id="male" name="gender" value="male">Erkek
+        <input type="radio" id="female" name="gender" value="female">Kadın
+        <label for="subscribe">Abone OL:</label>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <label for="city">Şehir Seçin:</label>
+        <select id="city" name="city">
+            <option value="istanbul">İstanbul</option>
+            <option value="izmir">İzmir</option>
+            <option value="ankara">Ankara</option>
+        </select>
+        <label for="message">Mesajınız:</label>
+        <textarea id="message" name="message" rows="4" cols="50" placeholder="Mesajınızı Girin"></textarea>
+        <button type="submit">Gönder</button>
+    </form>
+    
+</body>
+
+</html>
