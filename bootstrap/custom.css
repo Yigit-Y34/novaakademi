@@ -1,0 +1,14 @@
+.col{
+    background-color: rgb(243, 235, 225);
+}
+.col:hover {
+    background-color: crimson;
+    color: aliceblue;
+}
+.col-sm{
+    background-color: rgb(243, 235, 225);
+}
+.col-sm:hover {
+    background-color: crimson;
+    color: aliceblue;
+}
